@@ -1,0 +1,9 @@
+//- 加载前端模块
+if model
+    script
+        |require([
+        each val, i in model
+            | '#{val}'
+            if i < model.length - 1
+                |,
+        | ])

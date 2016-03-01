@@ -1,0 +1,21 @@
+//- Created by  RD-小小WEB on 2016/1/14.
+
+extends ../layout
+
+block content
+    .container
+        .page-header
+            h1 十月妈咪微海报视频设置
+        .row
+            .col-lg-6
+                .input-group
+                    input.form-control#url(type='text', placeholder='视频地址')
+                    span.input-group-btn
+                        button#submit.btn.btn-primary(type='button', data-loading-text='视频更改中...', autocomplete='off')
+                            | 提交
+        label
+            a.btn.btn-primary.oct-btn(href='http://w.octmami.com/20160101/' target='_blank') 查看页面
+        label
+            a.btn.btn-primary.oct-btn(href='http://vod.lecloud.com/Video/lists' target='_blank') 获取视频地址
+        label
+            a.btn.btn-primary.oct-btn(href='/logout' ) 注销
