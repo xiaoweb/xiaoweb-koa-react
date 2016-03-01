@@ -6872,3 +6872,17 @@
 2016-03-01 15:16:32 ::ffff:127.0.0.1 GET xiaoweb.cn/js/skin/layer.css 304 1ms
 2016-03-01 15:16:37 ::ffff:127.0.0.1 GET xiaoweb.cn/admin 200 11ms
 2016-03-01 15:16:37 ::ffff:127.0.0.1 GET xiaoweb.cn/css/admin.css 304 1ms
+2016-03-01 15:46:15 ::ffff:127.0.0.1 GET xiaoweb.cn/ 200 126ms
+2016-03-01 15:46:15 ::ffff:127.0.0.1 GET xiaoweb.cn/css/style.css 304 4ms
+2016-03-01 15:46:15 ::ffff:127.0.0.1 GET xiaoweb.cn/js/layer.js 304 1ms
+2016-03-01 15:46:15 ::ffff:127.0.0.1 GET xiaoweb.cn/js/requirejs.js 304 1ms
+2016-03-01 15:46:15 ::ffff:127.0.0.1 GET xiaoweb.cn/js/main.js 304 1ms
+2016-03-01 15:46:16 ::ffff:127.0.0.1 GET xiaoweb.cn/js/skin/layer.css 304 1ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/ 200 76ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/css/style.css 304 1ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/js/layer.js 304 2ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/js/requirejs.js 304 2ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/js/main.js 304 3ms
+2016-03-01 15:46:20 ::ffff:127.0.0.1 GET xiaoweb.cn/js/skin/layer.css 304 1ms
+2016-03-01 15:46:24 ::ffff:127.0.0.1 GET xiaoweb.cn/admin 200 14ms
+2016-03-01 15:46:25 ::ffff:127.0.0.1 GET xiaoweb.cn/css/admin.css 304 1ms

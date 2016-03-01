@@ -5,7 +5,7 @@ let Bottom = React.createClass({
     render(){
         return (
             <div className="admin-bottom">
-                bottom                   123123
+                bottom
             </div>
         )
     }

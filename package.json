@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaoweb/xiaowebblog.git"
+    "url": "git+https://github.com/xiaoweb/xiaoweb-koa-react.git"
   },
   "author": "小小WEB",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiaoweb/xiaowebblog/issues"
+    "url": "https://github.com/xiaoweb/xiaoweb-koa-react/issues"
   },
-  "homepage": "https://github.com/xiaoweb/xiaowebblog#readme",
+  "homepage": "https://github.com/xiaoweb/xiaoweb-koa-react#readme",
   "dependencies": {
     "co-body": "^4.0.0",
     "jade": "^1.11.0",
