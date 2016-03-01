@@ -13,9 +13,6 @@ html
         link(rel='alternate icon', type='image/png', href='/i/favicon.png')
     body
         block content
-        each i in global
-            div #{i} <br><br>
-        div #{process}
         if (env == 'dev')
             script(src='https://xiaoweb.cn:8080/app.js')
         else
