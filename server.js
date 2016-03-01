@@ -15,16 +15,18 @@ var koa = require('koa'),
 
 //环境 NODE_ENV || development || production
 app.env = 'NODE_ENV';
-app.env = 'dev';
+
+//开发环境
+global.env = app.env = 'dev';
 
 //http跳https
-/*app.use(function*(next) {
+app.use(function*(next) {
     if (this.protocol === 'http') {
         this.redirect('https://' + this.host + this.url)
     } else {
         yield next;
     }
-})*/
+})
 
 //日志
 app.use(function *(next) {
@@ -101,11 +103,14 @@ if( app.env ==='dev'){
 
     var config = require("./webpack.config.js");
 
-    config.entry.app.unshift("webpack-dev-server/client?http://xiaoweb.cn:8080", "webpack/hot/only-dev-server");
-    config.output.publicPath = 'http://xiaoweb.cn:8080/';
+    config.entry.app.unshift("webpack-dev-server/client?https://xiaoweb.cn:8080", "webpack/hot/only-dev-server");
+    config.output.publicPath = 'https://xiaoweb.cn:8080/';
     var compiler = webpack(config);
     var devServer = new webpackDevServer(compiler,{
-        hot:true
+        hot:true,
+        https:true,
+        cert: options.cert,
+        key: options.key
     });
     devServer.listen(8080);
 }
