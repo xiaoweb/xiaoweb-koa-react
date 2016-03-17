@@ -48,21 +48,13 @@ let Left = React.createClass({
         return {
             navList: [
                 {link: '/admin/', name: '首页'},
-                {
-                    label: '视频',
-                    path: [
-                        {link: '/admin/video', name: '视频'}
-                    ]
-                },
+                {link: '/admin/video', name: '视频'}/*,
                 {
                     label: 'test',
                     path: [
-                        {link: '/admin/test', name: 'test'},
-                        {link: '/admin/test', name: 'test'},
-                        {link: '/admin/test', name: 'test'},
                         {link: '/admin/test', name: 'test'}
                     ]
-                }
+                }*/
 
             ]
         }

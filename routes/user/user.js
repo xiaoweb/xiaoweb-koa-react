@@ -6,8 +6,8 @@ module.exports = function *(next) {
         age: 20
     });
 
-   var data = yield Users.find().exec();
-    if(data){
-        this.body = this.res.render('user/user',{val:data})
+    var data = yield Users.find().exec();
+    if (data) {
+        this.body = this.res.render('user/user', {val: data})
     }
 }

@@ -78,7 +78,7 @@ routes(router);
 app.use(router.routes());
 
 /*//连接数据库
-mongoose.connect('mongodb://xiaoweb:11111@ds061701.mongolab.com:61701/xiaoweb', function (err) {
+mongoose.connect('mongodb://xiaoweb:1111@ds061701.mongolab.com:61701/xiaoweb', function (err) {
     if (err) {
         console.log(err);
     } else {
